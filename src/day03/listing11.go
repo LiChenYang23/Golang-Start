@@ -34,8 +34,7 @@ func main() {
 
 	// user类型的值可以用来调用
 	// 使用指针接收者声明的方法
-	bill.changeEmail("bill@newdomai" +
-		"n.com")
+	bill.changeEmail("bill@newdomain.com")
 	bill.notify()
 
 	// 指向user类型值的指针可以用来调用
